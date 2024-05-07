@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-image: url("./amor/casal.png"), url("./amor/sozinha.png"), url("./amor/Imagem_do_WhatsApp_de_2024-05-06_à_s__13.04.45_7255955e-removebg-preview.png"), url("./amor/aranha.png"), url("./amor/sport.png"), url("./amor/bar.png");
+    background-repeat: no-repeat;
+    background-position: right, left;
+    background-position: top right, top left, center left, bottom right, center right, bottom left;
+    font-family: "Sedan SC", serif;
+    background-color: #2b2a2a;
+    color: white;
+}
+
+main {
+    width: 700px;
+    margin: 0px auto;
+}
+
+h1 {
+    margin-top: 80px;
+    font-size: 64px;
+    text-align: center;
+}
+
+p {
+    padding: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+    background-color: #2b2a2a;
+    border-radius: 15px;
+    box-shadow: black 10px 10px 15px;
+    margin: 30px 0;
+}
+
+h2 {
+    padding-top: 55px;
+    text-align: center;
+}
+
+pre {
+    background-image: url("./pergaminho.png");
+    background-size: 100% 100%;
+    background-position: center;
+    color: black;
+    background-repeat: no-repeat;
+    padding: 100px;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 24px;
+}
+
+img {
+    width: 100%;
+}
+
+audio {
+    padding: 30px;
+    width: 100%;
+}
+
+a { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 25px 50px;
+    color: white;
+    margin: 15px 0;
+    border: 5px solid #063472;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
