@@ -82,3 +82,9 @@ a:hover {
     color: black;
     border: none;
 }
+
+@media (max-width: 700px) {
+    body {
+        background-image: none;
+    }
+}
